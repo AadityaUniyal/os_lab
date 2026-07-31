@@ -1,0 +1,94 @@
+# ==========================
+# C / C++ Build Files
+# ==========================
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.lib
+*.exe
+*.out
+*.app
+
+# Debug Symbols
+*.dSYM/
+*.pdb
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# ==========================
+# Build Directories
+# ==========================
+build/
+bin/
+dist/
+Debug/
+Release/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Makefile
+install_manifest.txt
+
+# ==========================
+# CMake
+# ==========================
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Uncomment the next line if you don't want ANY VS Code settings tracked
+# .vscode/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+
+# ==========================
+# Coverage Files
+# ==========================
+*.gcda
+*.gcno
+*.gcov
+
+# ==========================
+# Profiling
+# ==========================
+gmon.out
