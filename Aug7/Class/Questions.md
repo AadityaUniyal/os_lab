@@ -1,4 +1,19 @@
-write a program to check whether a number is prime or not in the child processs and the process calcualte factoial of a number in the parent process.
+# Operating Systems Lab Programs (Process Management with `fork()`)
 
-Write a program to call a functio fibonaci in the child process and print fibonaci series up to n  in the paret process call a function armstrong and print all armstrong number upto n.
+## 1. Prime Number and Factorial
 
+**Question:**
+
+Write a C program in which:
+- The **child process** checks whether a given number is **prime** or **not prime**.
+- The **parent process** calculates and prints the **factorial** of the same number.
+
+---
+
+## 2. Fibonacci Series and Armstrong Numbers
+
+**Question:**
+
+Write a C program in which:
+- The **child process** calls a function to print the **Fibonacci series** up to **n**.
+- The **parent process** calls a function to print all **Armstrong numbers** up to **n**.
